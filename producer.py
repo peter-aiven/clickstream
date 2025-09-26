@@ -14,7 +14,7 @@ class ClickstreamProducer:
         
         # Load configuration from environment variables
         kafka_config = {
-            'bootstrap_servers': [os.getenv('KAFKA_BOOTSTRAP_SERVERS', 'localhost:9092')],
+            'bootstrap_servers': [os.getenv('KAFKA_BOOTSTRAP_SERVERS')],
             'security_protocol': 'SSL',
             'ssl_cafile': os.getenv('KAFKA_SSL_CAFILE'),
             'ssl_certfile': os.getenv('KAFKA_SSL_CERTFILE'),

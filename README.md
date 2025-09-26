@@ -357,8 +357,7 @@ The producer generates realistic events with appropriate weights:
 
 ### Adding New Event Types:
 1. Update `event_types` and `event_weights` in `producer.py`
-2. Add event-specific data generation in `_add_event_specific_data()`
-3. Update consumer aggregation logic if needed
+2. Update consumer aggregation logic if needed
 
 ### Custom Analytics:
 1. Modify the `session_metrics` table schema

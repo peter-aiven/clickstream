@@ -83,7 +83,7 @@ Both producer and consumer scripts use environment variables for configuration. 
 ```bash
 # Aiven Kafka connection details (from Terraform output)
 export KAFKA_BOOTSTRAP_SERVERS="your-kafka-service.aivencloud.com:12345"
-export KAFKA_TOPIC="clickstream-events"
+export KAFKA_TOPIC="clickstream-analytics"
 
 # SSL Configuration (required for Aiven)
 export KAFKA_SSL_CAFILE="ca.pem"
@@ -199,7 +199,7 @@ Navigate to your OpenSearch Dashboards (connection details from Terraform output
 terraform output opensearch_dashboard_url
 
 # Login with your OpenSearch credentials
-# Default index pattern: clickstream-events-*
+# Default index pattern: clickstream-analytics-*
 ```
 
 ### 8. Verify Data Storage

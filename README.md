@@ -353,20 +353,6 @@ The producer generates realistic events with appropriate weights:
    psql "postgresql://$POSTGRES_USER:$POSTGRES_PASSWORD@$POSTGRES_HOST:$POSTGRES_PORT/$POSTGRES_DATABASE?sslmode=require"
    ```
 
-## 🎨 Demo Features
-
-### Producer Highlights:
-- 🎯 **Realistic User Journeys**: Session-based navigation with natural timeouts
-- 💰 **E-commerce Simulation**: Product views, cart operations, purchases with revenue tracking
-- 📱 **Multi-device Support**: Desktop, mobile, tablet simulation
-- 🔍 **Contextual Events**: Search on search pages, purchases on checkout pages
-
-### Consumer Highlights:
-- ⚡ **Real-time Aggregation**: Session metrics updated as events arrive
-- 🔄 **Fault Tolerance**: Graceful error handling and recovery
-- 📊 **Rich Analytics**: 15+ metrics per session for deep insights
-- 💾 **Efficient Storage**: Bulk database operations with UPSERT logic
-
 ## 🔧 Customization
 
 ### Adding New Event Types:

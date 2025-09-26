@@ -193,14 +193,7 @@ Watch both terminals for progress:
 - **Consumer**: Shows processing of events
 
 ### 7. Access Real-time Dashboards
-Navigate to your OpenSearch Dashboards (connection details from Terraform output):
-```bash
-# Get OpenSearch dashboard URL
-terraform output opensearch_dashboard_url
-
-# Login with your OpenSearch credentials
-# Default index pattern: clickstream-analytics-*
-```
+Navigate to your OpenSearch Dashboards (connection details from the Aiven Console):
 
 ### 8. Verify Data Storage
 

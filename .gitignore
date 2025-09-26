@@ -1,0 +1,6 @@
+.DS_Store
+.env
+ca.pem
+service.cert
+service.key
+.terr*

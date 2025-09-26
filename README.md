@@ -107,7 +107,7 @@ export POSTGRES_PASSWORD="your_password"
 ```bash
 git clone https://github.com/peter-aiven/clickstream.git
 cd clickstream
-
+```
 
 ### 2. Infrastructure Provisioning
 ```bash
